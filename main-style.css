@@ -153,7 +153,49 @@ h2 {
 }
 
 .footer {
-  padding: 3rem;
+  padding: 3rem 6rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1rem;
+}
+
+.copyrights {
+  font-size: 1.6rem;
+}
+
+.contact {
+  text-align: end;
+}
+.contact a {
+  margin: 0.5rem;
+}
+.contact__logo {
+  font-size: 3.2rem;
+  transition: all 0.3s;
+}
+.contact__facebook {
+  color: #4267B2;
+}
+.contact__facebook:hover {
+  color: #5e85d4;
+}
+.contact__whatsapp {
+  color: #128C7E;
+}
+.contact__whatsapp:hover {
+  color: #25D366;
+}
+.contact__email {
+  color: #a82b1f;
+}
+.contact__email:hover {
+  color: #ca483d;
+}
+.contact__github {
+  color: #24292e;
+}
+.contact__github:hover {
+  color: #5b6e80;
 }
 
 /*# sourceMappingURL=main-style.css.map */

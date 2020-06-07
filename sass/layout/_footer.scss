@@ -1,7 +1,57 @@
 .footer {
-    padding: 3rem;
+    padding: 3rem 6rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1rem;
+}
+
+.copyrights {
+    font-size: 1.6rem;
 }
 
 .contact {
-    
+    text-align: end;
+
+    a {
+        margin: .5rem;
+    }
+
+    &__logo {
+        font-size: 3.2rem;
+        transition: all .3s;
+    }
+
+    &__facebook {
+        color: #4267B2;
+
+        &:hover {
+            color: rgb(94, 133, 212);
+        }
+    }
+
+    &__whatsapp {
+        color: #128C7E;
+
+        &:hover {
+            color: #25D366;
+        }
+    }
+
+    &__email {
+        color: rgb(168, 43, 31);
+
+        &:hover {
+            color: rgb(202, 72, 61);
+
+        }
+    }
+
+    &__github {
+        color: #24292e;
+
+        &:hover {
+            color: #5b6e80;
+
+        }
+    }
 }
