@@ -1,0 +1,21 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "Landing page theme - AZ Web Project",
+  "main": "index.js",
+  "scripts": {
+    "sass-watch": "sass sass/main-sass.scss main-style --watch"
+  },
+  "keywords": [
+    "landing-page",
+    "theme",
+    "az",
+    "azweb",
+    "azwebproject",
+    "web",
+    "webproject",
+    "project"
+  ],
+  "author": "Ahmed Magdy Seleem",
+  "license": "ISC"
+}
