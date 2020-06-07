@@ -11,7 +11,10 @@ html {
 }
 
 body {
+    font-size: $default-font;
     font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: $primary-color-text;
+    font-weight: 400;
 }
 
 ul {

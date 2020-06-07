@@ -1,0 +1,23 @@
+.header {
+    background-image: linear-gradient(19deg, rgba(0, 0, 0, .25) 50%, rgba(0, 0, 0, .25) 100%), url("../../img/bg.jpg");
+    height: 50rem;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-position: center center;
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+
+    .input-email {
+        width: 40rem;
+        border-radius: 8px;
+        padding: 1.1rem 2rem;
+        font-size: $default-font;
+        margin: 0 1rem;
+    }
+}

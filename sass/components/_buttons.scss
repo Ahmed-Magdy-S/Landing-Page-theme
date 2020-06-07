@@ -1,0 +1,24 @@
+.btn {
+    background-color: $btn-color;
+    color: $color-white;
+    padding: 1rem 1.5rem;
+    margin-right: 3rem;
+    border-color: $btn-color;
+    outline: $btn-color;
+    transition: all .3s;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &--sign-up {
+        padding: 1.2rem 3.5rem;
+
+    }
+
+    &:hover {
+        background-color: $btn-color-dark;
+    }
+    &:focus {
+        box-shadow: $btn-box-shadow;
+    }
+
+}

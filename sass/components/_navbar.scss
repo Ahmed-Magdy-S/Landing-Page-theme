@@ -1,0 +1,11 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: .8rem 1.5rem;
+    align-items: center;
+
+    &__brand {
+        margin-left: 3rem;
+
+    }
+}
