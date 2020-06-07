@@ -15,6 +15,7 @@ body {
     font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: $primary-color-text;
     font-weight: 400;
+    line-height: 1.4;
 }
 
 ul {
@@ -22,9 +23,15 @@ ul {
 }
 
 img {
-    width: 100%;
+    display: block
 }
 
 a {
     text-decoration: none;
+}
+p {
+    color: #212529c0;
+}
+h2 {
+    margin-bottom: 1rem;
 }

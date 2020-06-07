@@ -1,12 +1,6 @@
 .header {
-    background-image: linear-gradient(19deg, rgba(0, 0, 0, .25) 50%, rgba(0, 0, 0, .25) 100%), url("../../img/bg.jpg");
     height: 50rem;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-position: center center;
+    @include sign-up;
 }
 
 .sign-up {
@@ -15,6 +9,7 @@
 
     .input-email {
         width: 40rem;
+        height: 4.5rem;
         border-radius: 8px;
         padding: 1.1rem 2rem;
         font-size: $default-font;

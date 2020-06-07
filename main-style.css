@@ -15,6 +15,7 @@ body {
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #212529;
   font-weight: 400;
+  line-height: 1.4;
 }
 
 ul {
@@ -22,11 +23,19 @@ ul {
 }
 
 img {
-  width: 100%;
+  display: block;
 }
 
 a {
   text-decoration: none;
+}
+
+p {
+  color: #212529c0;
+}
+
+h2 {
+  margin-bottom: 1rem;
 }
 
 .main-heading {
@@ -41,6 +50,7 @@ a {
   color: #fff;
   padding: 1rem 1.5rem;
   margin-right: 3rem;
+  border: none;
   border-color: #007bff;
   outline: #007bff;
   transition: all 0.3s;
@@ -48,7 +58,9 @@ a {
   cursor: pointer;
 }
 .btn--sign-up {
-  padding: 1.2rem 3.5rem;
+  width: 13rem;
+  height: 4.5rem;
+  font-size: 1.8rem;
 }
 .btn:hover {
   background-color: #0062cc;
@@ -65,11 +77,12 @@ a {
 }
 .nav__brand {
   margin-left: 3rem;
+  color: #000;
 }
 
 .header {
-  background-image: linear-gradient(19deg, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25) 100%), url("../../img/bg.jpg");
   height: 50rem;
+  background-image: linear-gradient(19deg, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25) 100%), url("../../img/bg.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -84,10 +97,63 @@ a {
 }
 .sign-up .input-email {
   width: 40rem;
+  height: 4.5rem;
   border-radius: 8px;
   padding: 1.1rem 2rem;
   font-size: 1.8rem;
   margin: 0 1rem;
+}
+
+.section-features {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  padding: 10rem 5rem;
+  gap: 2rem;
+  background-color: #f8f9fa;
+}
+
+.feature__icon {
+  font-size: 7.2rem;
+  color: #007bff;
+  transition: transform 0.3s;
+}
+.feature__icon:hover {
+  transform: scale(1.2);
+}
+
+.section-description .item {
+  display: flex;
+  align-items: center;
+}
+.section-description .item__description {
+  padding: 7rem;
+  width: 50%;
+  height: 40rem;
+}
+.section-description .item__image {
+  width: 50%;
+  height: 40rem;
+}
+.section-description .item__image img {
+  height: 100%;
+  width: 100%;
+}
+
+.section-sign-up {
+  background-image: linear-gradient(19deg, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25) 100%), url("../../img/bg.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-position: center center;
+  color: #fff;
+  height: 30rem;
+}
+
+.footer {
+  padding: 3rem;
 }
 
 /*# sourceMappingURL=main-style.css.map */

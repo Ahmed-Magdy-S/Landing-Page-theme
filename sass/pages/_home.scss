@@ -1,0 +1,49 @@
+.section-features {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    padding: 10rem 5rem;
+    gap: 2rem;
+    background-color: #f8f9fa;
+}
+
+.feature {
+    &__icon {
+        font-size: 7.2rem;
+        color: $btn-color;
+        transition: transform .3s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+.section-description {
+    .item {
+        display: flex;
+        align-items: center;
+
+        &__description {
+            padding: 7rem;
+            width: 50%;
+            height: 40rem;
+
+        }
+
+        &__image {
+            width: 50%;
+            height: 40rem;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+.section-sign-up {
+    @include sign-up;
+    color: #fff;
+    height: 30rem;
+}

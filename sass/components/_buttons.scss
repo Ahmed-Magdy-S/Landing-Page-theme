@@ -3,6 +3,7 @@
     color: $color-white;
     padding: 1rem 1.5rem;
     margin-right: 3rem;
+    border: none;
     border-color: $btn-color;
     outline: $btn-color;
     transition: all .3s;
@@ -10,7 +11,9 @@
     cursor: pointer;
 
     &--sign-up {
-        padding: 1.2rem 3.5rem;
+        width: 13rem;
+        height: 4.5rem;
+        font-size: $default-font;
 
     }
 
