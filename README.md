@@ -1,2 +1,2 @@
 # Landing-Page-theme
-Cloning a landing page from A to Z from :https://blackrockdigital.github.io/startbootstrap-landing-page/
+Creating a landing page from A to Z similar to :https://blackrockdigital.github.io/startbootstrap-landing-page/
