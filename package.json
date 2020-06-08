@@ -4,7 +4,8 @@
   "description": "Landing page theme - AZ Web Project",
   "main": "index.js",
   "scripts": {
-    "sass-watch": "sass sass/main-sass.scss main-style.css --watch"
+     "sass-watch": "sass sass/main-sass.scss main-style.css --watch --style=compressed",
+    "autoprefix":"postcss --use autoprefixer -b 'last 10 versions' main-style.css -o main-style.css"
   },
   "keywords": [
     "landing-page",

@@ -3,6 +3,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 1rem;
+    align-items: center;
+    justify-items: center;
 }
 
 .copyrights {
@@ -14,6 +16,7 @@
 
     a {
         margin: .5rem;
+        display: inline-block;
     }
 
     &__logo {
